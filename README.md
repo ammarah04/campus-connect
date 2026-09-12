@@ -42,8 +42,7 @@ npm install
 cd ../client
 npm install
 4. Set up environment variables
-
-   Create a `.env` file in `server/` with:
+Create a `.env` file in `server/` with:
 
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
@@ -54,28 +53,22 @@ CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_api_key
 CLOUDINARY_API_SECRET=your_api_secret
 
-
-   Create a `.env` file in `client/` with:
+Create a `.env` file in `client/` with:
 
 VITE_API_URL=http://localhost:5000/api
 VITE_SOCKET_URL=http://localhost:5000
 
-
 5. Run the app
 
-   In one terminal:
-
+In one terminal:
 cd server
 npm run dev
 
-
-   In another terminal:
-
+In another terminal:
 cd client
 npm run dev
 
-
-   The client runs at `http://localhost:5173`, the server at `http://localhost:5000`.
+The client runs at `http://localhost:5173`, the server at `http://localhost:5000`.
 
 ## Project Structure
 
