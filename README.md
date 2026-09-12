@@ -30,9 +30,9 @@ A full-stack university community platform built with the MERN stack. Students c
 
 ### Installation
 1. Clone the repository
-###git clone https://github.com/ammarah04/campus-connect
+git clone https://github.com/ammarah04/campus-connect
 
- ###cd CampusConnect
+cd CampusConnect
 
 3. Install server dependencies
  
