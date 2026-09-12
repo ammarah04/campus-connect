@@ -1,0 +1,1 @@
+export const DEPARTMENTS = ["CS", "SE", "AI", "Data Science", "Cyber"];
