@@ -40,9 +40,12 @@ cd CampusConnect
  npm install
 
 4. Install client dependencies
+   
   cd ../client
   npm install
+  
 5. Set up environment variables
+   
  Create a `.env` file in `server/` with:
 
  PORT=5000
@@ -59,13 +62,15 @@ cd CampusConnect
  VITE_API_URL=http://localhost:5000/api
  VITE_SOCKET_URL=http://localhost:5000
 
-5. Run the app
+6. Run the app
 
  In one terminal:
+ 
  cd server
  npm run dev
 
  In another terminal:
+ 
   cd client
 npm run dev
 
