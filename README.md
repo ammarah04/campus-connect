@@ -30,6 +30,7 @@ A full-stack university community platform built with the MERN stack. Students c
 
 ### Installation
 1. Clone the repository
+
 git clone https://github.com/ammarah04/campus-connect
 
 cd CampusConnect
@@ -66,12 +67,12 @@ cd CampusConnect
 
  In one terminal:
  
- cd server
- npm run dev
+cd server
+npm run dev
 
  In another terminal:
  
-  cd client
+cd client
 npm run dev
 
  The client runs at `http://localhost:5173`, the server at `http://localhost:5000`.
