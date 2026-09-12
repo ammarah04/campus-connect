@@ -50,12 +50,19 @@ cd CampusConnect
  Create a `.env` file in `server/` with:
 
  PORT=5000
+ 
  MONGO_URI=your_mongodb_connection_string
+ 
  JWT_SECRET=your_jwt_secret
+ 
  JWT_REFRESH_SECRET=your_jwt_refresh_secret
+ 
  CLIENT_URL=http://localhost:5173
+ 
  CLOUDINARY_CLOUD_NAME=your_cloud_name
+ 
  CLOUDINARY_API_KEY=your_api_key
+ 
  CLOUDINARY_API_SECRET=your_api_secret
 
  Create a `.env` file in `client/` with:
