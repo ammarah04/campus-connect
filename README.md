@@ -32,16 +32,17 @@ A full-stack university community platform built with the MERN stack. Students c
 
 1. Clone the repository
 git clone https://github.com/ammarah04/campus-connect
+
 cd CampusConnect
 
-2. Install server dependencies
+3. Install server dependencies
 cd server
 npm install
 
-3. Install client dependencies
+4. Install client dependencies
 cd ../client
 npm install
-4. Set up environment variables
+5. Set up environment variables
 Create a `.env` file in `server/` with:
 
 PORT=5000
